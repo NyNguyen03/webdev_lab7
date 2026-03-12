@@ -1,0 +1,96 @@
+/* Page style */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#f4f6fb;
+  margin:0;
+  padding:0;
+}
+
+/* main page container */
+#page-wrapper{
+  width:85%;
+  margin:40px auto;
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* header */
+#main-header{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+#main-header h1{
+  font-size:2em;
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+#subtitle{
+  font-style:italic;
+  color:#555;
+}
+
+/* intro section */
+#intro{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+#intro h2{
+  font-size:1.4em;
+  margin-bottom:8px;
+}
+
+/* table */
+#planets{
+  width:100%;
+  border-collapse:collapse;
+}
+
+/* caption */
+#planets caption{
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+/* table headers */
+#planets th{
+  background-color:#2f5aa6;
+  color:white;
+  padding:12px;
+}
+
+/* table cells */
+#planets td{
+  border:1px solid #ddd;
+  padding:10px;
+  text-align:center;
+}
+
+/* left column (fact names) */
+.fact-name{
+  font-weight:bold;
+  text-align:left;
+  background:#f2f2f2;
+}
+
+/* alternating rows */
+#planets tr:nth-child(even){
+  background:#f9f9f9;
+}
+
+/* images */
+.image-row img{
+  width:90px;
+}
+
+/* footer */
+#page-footer{
+  text-align:center;
+  margin-top:20px;
+  font-style:italic;
+  color:#666;
+}
